@@ -24,7 +24,7 @@ PROMPT_COMMAND="find_git_branch; find_git_dirty; $PROMPT_COMMAND"
 
 # export PS1="\[$txtcyn\][\u] \[$txtylw\]\w \[$txtcyn\]\$git_branch\[$txtred\]\$git_dirty\n\[$txtgrn\]大哥，有何吩咐? \[$txtrst\]"
 # export PS1="\[$txtcyn\][\u] \[$txtylw\]\w \[$txtcyn\]\$git_branch\[$txtred\]\$git_dirty\n\[$txtgrn\]$ \[$txtrst\]"
-export PS1="\[$txtcyn\][\u] \[$undcyn\]\D{%F %T}\[$txtylw\] \w \[$txtcyn\]\$git_branch\[$txtred\]\$git_dirty\n\[$txtgrn\]$ \[$txtrst\]"
+export PS1="$txtlbl[\D{%F %T}]$txtrst $txtcyn[\u]$txtrst $txtylw\w$txtrst $txtcyn\$git_branch$txtred\$git_dirty$txtrst\n$txtgrn$ $txtrst"
 
 # Default Git enabled prompt with dirty state
 # export PS1="\u@\h \w \[$txtcyn\]\$git_branch\[$txtred\]\$git_dirty\[$txtrst\]\$ "

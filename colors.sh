@@ -8,6 +8,9 @@ txtpur='\e[0;35m' # Purple
 txtcyn='\e[0;36m' # Cyan
 txtwht='\e[0;37m' # White
 
+txtlbl='\e[0;94m' # Light blue
+txtlcy='\e[0;96m' # Light cyan
+
 # Bold
 bldblk='\e[1;30m' # Black
 bldred='\e[1;31m' # Red
@@ -27,6 +30,7 @@ undblu='\e[4;34m' # Blue
 undpur='\e[4;35m' # Purple
 undcyn='\e[4;36m' # Cyan
 undwht='\e[4;37m' # White
+undlbl='\e[4;94m' # Light blue
 
 # Background
 bakblk='\e[40m'   # Black

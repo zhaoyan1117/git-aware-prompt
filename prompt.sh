@@ -20,7 +20,7 @@ find_git_dirty() {
   fi
 }
 
-PROMPT_COMMAND="find_git_branch; find_git_dirty; $PROMPT_COMMAND"
+PROMPT_COMMAND="find_git_branch; $PROMPT_COMMAND"
 
 # export PS1="\[$txtcyn\][\u] \[$txtylw\]\w \[$txtcyn\]\$git_branch\[$txtred\]\$git_dirty\n\[$txtgrn\]大哥，有何吩咐? \[$txtrst\]"
 # export PS1="\[$txtcyn\][\u] \[$txtylw\]\w \[$txtcyn\]\$git_branch\[$txtred\]\$git_dirty\n\[$txtgrn\]$ \[$txtrst\]"

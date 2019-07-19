@@ -11,6 +11,8 @@ txtwht='\e[0;37m' # White
 txtlbl='\e[0;94m' # Light blue
 txtlcy='\e[0;96m' # Light cyan
 
+txtorg='\e[38;5;208m' # Orange
+
 # Bold
 bldblk='\e[1;30m' # Black
 bldred='\e[1;31m' # Red
